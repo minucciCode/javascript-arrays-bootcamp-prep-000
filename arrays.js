@@ -28,7 +28,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array, element) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  return array.slice(1)
+   array.slice(1)
+   return array
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
@@ -37,5 +38,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-   return array.slice(-1)
+    array.slice(-1)
+    return array
 }
